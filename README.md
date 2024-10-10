@@ -35,6 +35,3 @@ Os testes de unidade e integração são implementados com **xUnit**, um framewo
 ## Licença
 
 Este projeto está licenciado sob os termos da [MIT License](LICENSE).
-
-
-
