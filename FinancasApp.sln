@@ -17,12 +17,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancasApp.Web", "Financas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancasApp.Domain", "FinancasApp.Domain\FinancasApp.Domain.csproj", "{64F18C88-D4A9-46C2-BF00-5D7E33836B34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancasApp.Infra.Data", "FinancasApp.Infra.Data\FinancasApp.Infra.Data.csproj", "{9DE90009-5CED-498F-A550-756FF80FA76C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancasApp.Infra.Data", "FinancasApp.Infra.Data\FinancasApp.Infra.Data.csproj", "{9DE90009-5CED-498F-A550-756FF80FA76C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{885EB3DC-8FFC-4333-979D-BFF9F48D2EB5}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancasApp.Infra.Security", "FinancasApp.Infra.Security\FinancasApp.Infra.Security.csproj", "{9594B83C-20F2-4618-80D9-4F5A1799275B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +48,10 @@ Global
 		{9DE90009-5CED-498F-A550-756FF80FA76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DE90009-5CED-498F-A550-756FF80FA76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DE90009-5CED-498F-A550-756FF80FA76C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9594B83C-20F2-4618-80D9-4F5A1799275B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9594B83C-20F2-4618-80D9-4F5A1799275B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9594B83C-20F2-4618-80D9-4F5A1799275B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9594B83C-20F2-4618-80D9-4F5A1799275B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{89FCD83E-DD72-48BA-9466-68B2E68776FB} = {A4C1FA0D-D3BB-41A8-8504-2AF26386733E}
 		{64F18C88-D4A9-46C2-BF00-5D7E33836B34} = {5559274B-344E-494C-8686-047EF7001320}
 		{9DE90009-5CED-498F-A550-756FF80FA76C} = {978A26FA-2899-43F1-B3EA-9FE7083AC1CF}
+		{9594B83C-20F2-4618-80D9-4F5A1799275B} = {978A26FA-2899-43F1-B3EA-9FE7083AC1CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6699A315-3185-4F79-8BCF-A89EC2CFC7F1}
